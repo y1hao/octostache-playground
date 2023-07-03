@@ -2,6 +2,8 @@
 
 This repository demos how to build the dotnet app Octostache into webassembly and run it from browser.
 
+See it in action: https://y1hao.github.io/octostache-playground/
+
 Building this repo requires nodejs, npm and .Net 7.
 
 You also need to install the webassembly workload for dotnet:
