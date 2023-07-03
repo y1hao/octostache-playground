@@ -46,7 +46,7 @@ function App() {
     setVariables([...variables, { name: "", value: "" }]);
   }
 
-  const Loading = () => <p>Loading...</p>;
+  const Loading = () => <h2>Loading...</h2>;
 
   return (
     <div className="container">

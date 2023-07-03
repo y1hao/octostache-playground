@@ -30,9 +30,10 @@ textarea {
   color: rgba(0, 0, 0, 0.87);
   display: block;
   border: 1px solid transparent;
-  font-size: 1.5em;
+  font-family: Courier, monospace;
   padding: 0.2em 1.2em;
   width: 100%;
+  box-sizing: border-box;
 }
 textarea:hover, textarea:focus, textarea:active {
   border-color: #646cff;
@@ -64,8 +65,7 @@ input {
   font-size: 1em;
   font-weight: 500;
   border: 1px solid transparent;
-  font-family: monospace;
-  font-size: 1.5em;
+  font-family: Courier, monospace;
 }
 
 input:hover, input:focus, input:active {
@@ -74,6 +74,5 @@ input:hover, input:focus, input:active {
 }
 
 code {
-  font-family: monospace;
-  font-size: 1.5em;
+  font-family: Courier, monospace;
 }
