@@ -1,14 +1,17 @@
 {
-  "name": "app",
-  "private": true,
-  "version": "0.0.0",
+  "name": "octostache-playground",
+  "homepage": "https://y1hao.github.io/octostache-playground",
+  "private": false,
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "npm run build:dotnet && vite",
     "build": "npm run publish:dotnet && tsc && vite build",
     "clean:dotnet": "rimraf ./public/assets",
     "build:dotnet": "npm run clean:dotnet && dotnet build ../octostache/OctostacheWrapper.csproj",
-    "publish:dotnet": "npm run clean:dotnet && dotnet publish -c Release ../octostache/OctostacheWrapper.csproj"
+    "publish:dotnet": "npm run clean:dotnet && dotnet publish -c Release ../octostache/OctostacheWrapper.csproj",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,6 +26,7 @@
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "gh-pages": "^5.0.0",
     "rimraf": "^5.0.1",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
