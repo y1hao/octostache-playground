@@ -1,0 +1,237 @@
+{
+  "mainAssemblyName": "OctostacheWrapper.dll",
+  "assemblyRootFolder": "managed",
+  "debugLevel": 0,
+  "assets": [
+    {
+      "behavior": "assembly",
+      "name": "Markdig.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CSharp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Caching.Abstractions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Caching.Memory.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Options.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "netstandard.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Newtonsoft.Json.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Octopus.Versioning.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Octostache.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "OctostacheWrapper.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Sprache.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Collections.Concurrent.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Collections.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ComponentModel.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ComponentModel.TypeConverter.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.Debug.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Dynamic.Runtime.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Globalization.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Linq.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Linq.Expressions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Memory.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ObjectModel.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Private.CoreLib.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Private.Uri.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Private.Xml.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Private.Xml.Linq.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Resources.ResourceManager.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.CompilerServices.Unsafe.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.InteropServices.JavaScript.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Numerics.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Serialization.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.Encoding.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.Encoding.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.Encodings.Web.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.Json.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.RegularExpressions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Tasks.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.ThreadPool.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.Linq.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.ReaderWriter.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.XDocument.dll"
+    },
+    {
+      "virtualPath": "runtimeconfig.bin",
+      "behavior": "vfs",
+      "name": "supportFiles/0_runtimeconfig.bin"
+    },
+    {
+      "virtualPath": "dotnet.js.symbols",
+      "behavior": "vfs",
+      "name": "supportFiles/1_dotnet.js.symbols"
+    },
+    {
+      "loadRemote": false,
+      "behavior": "icu",
+      "name": "icudt.dat"
+    },
+    {
+      "virtualPath": "/usr/share/zoneinfo/",
+      "behavior": "vfs",
+      "name": "dotnet.timezones.blat"
+    },
+    {
+      "behavior": "dotnetwasm",
+      "name": "dotnet.wasm"
+    }
+  ],
+  "remoteSources": [],
+  "pthreadPoolSize": 0
+}
