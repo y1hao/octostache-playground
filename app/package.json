@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npm run build:dotnet && tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "build:dotnet": "dotnet build ../octostache/OctostacheWrapper.csproj"
+    "dev": "npm run build:dotnet && vite",
+    "build": "npm run publish:dotnet && tsc && vite build",
+    "clean:dotnet": "rimraf ./public/assets",
+    "build:dotnet": "npm run clean:dotnet && dotnet build ../octostache/OctostacheWrapper.csproj",
+    "publish:dotnet": "npm run clean:dotnet && dotnet publish -c Release ../octostache/OctostacheWrapper.csproj"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,6 +23,7 @@
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "rimraf": "^5.0.1",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
   }
