@@ -27,3 +27,7 @@
   display: block;
   color: yellow;
 }
+
+.output {
+  font-weight: bold;
+}

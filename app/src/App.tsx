@@ -82,7 +82,7 @@ function App() {
             onChange={(event) => setInput(event.target.value)}
           />
           <p>Output:</p>
-          <code>{result?.output}</code>
+          <code className="output">{result?.output}</code>
           {result?.error && <code className="error">{result?.error}</code>}
         </div>
       )}

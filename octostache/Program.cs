@@ -21,7 +21,7 @@ public partial class OctostacheWrapper
     };
 
     [JSExport]
-    public static string Evaluate(string? input, string variables)
+    public static string Evaluate(string input, string variables)
     {
         var dict = JsonSerializer.Deserialize<Variable[]>(variables, Options);
 
