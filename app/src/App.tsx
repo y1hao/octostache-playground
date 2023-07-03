@@ -46,44 +46,44 @@ function App() {
     setVariables([...variables, { name: "", value: "" }]);
   }
 
-  const Loading = () => <h2>Loading...</h2>;
+  const Loading = () => <p>Loading...</p>;
 
   return (
-    <div>
+    <div className="container">
       <h1>Octostache Playground</h1>
       {!result ? (
         <Loading />
       ) : (
-        <div>
-          {variables.map((v, i) => (
-            <div key={`var-${i}`}>
+        <div className="content">
+          <p>Variables:</p>
+            {variables.map((v, i) => (
+            <div key={`var-${i}`} className="variable">
               <button onClick={() => removeVariable(i)}>-</button>
               <input
                 type="text"
+                placeholder="Name"
                 value={v.name}
                 onChange={(event) => setVariableName(i, event.target.value)}
               />
               <input
                 type="text"
+                placeholder="Value"
                 value={v.value}
                 onChange={(event) => setVariableValue(i, event.target.value)}
               />
             </div>
           ))}
-          <button onClick={addVariable}>Add Variable</button>
+          
+          <button className="add-more" onClick={addVariable}>+</button>
           <p>Input:</p>
           <textarea
+            rows={3}
             value={input}
             onChange={(event) => setInput(event.target.value)}
           />
           <p>Output:</p>
-          <p>{result?.output}</p>
-          {result?.error && (
-            <div>
-              <p>Error:</p>
-              <p>{result?.error}</p>
-            </div>
-          )}
+          <code>{result?.output}</code>
+          {result?.error && <code className="error">{result?.error}</code>}
         </div>
       )}
     </div>
